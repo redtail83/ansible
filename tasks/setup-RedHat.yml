@@ -1,0 +1,6 @@
+---
+# file: roles/ansible/tasks/setup-RedHat.yml
+
+# install Ansible
+- name: be sure Ansible is installed
+  package: name=ansible state=present
